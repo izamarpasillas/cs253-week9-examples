@@ -8,7 +8,7 @@ int main(void) {
 
    printf("*\n* Pointer Basics\n*\n");
    /* Start by declaring a variable to hold a int value */
-   int roomCapacity = 111000000;
+   int roomCapacity = 5123;
 
    /* Store the address of that variable in an int * variable (int pointer) */
    int * capacityPtr = &roomCapacity;
