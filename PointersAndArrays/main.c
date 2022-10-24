@@ -5,8 +5,8 @@ int main(void) {
    /* Lets start with an array of chars, also known as a string */
    char phrase[] = "Life is like a box of chocolates";
 
-   // printf("char using array syntax:  %c\n", phrase[6]);
-   // printf("char using pointer syntax:  %c\n", *(phrase + 6));
+   printf("char using array syntax:  %c\n", phrase[1]);
+   printf("char using pointer syntax:  %c\n", *(phrase + 1));
 
    char * myFirstCharPtr = phrase + 0;
    char * mySecondCharPtr = phrase + 2;
